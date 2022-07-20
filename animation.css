@@ -1,0 +1,51 @@
+/* Header animation */
+@keyframes banner {
+    0% {
+        background: url('images/banners/neymar-banner.png');
+        background-repeat: no-repeat;
+        transform: scale(.8);
+    }
+
+    32% {
+        background: url('images/banners/neymar-banner.png');
+        background-repeat: no-repeat;
+        transform: scale(1.2);
+    }
+
+    33% {
+        background: transparent;
+    }
+
+    34% {
+        background: url('images/banners/neymar-banner.png');
+        background-repeat: no-repeat;
+        transform: scale(.8);
+    }
+
+    67% {
+        background: url('images/banners/neymar-banner.png');
+        background-repeat: no-repeat;
+        transform: scale(1.2);
+    }
+
+    68% {
+        background: transparent;
+    }
+
+    69% {
+        background: url('images/banners/neymar-banner.png');
+        background-repeat: no-repeat;
+        transform: scale(.8);
+    }
+
+    99% {
+        background: url('images/banners/neymar-banner.png');
+        background-repeat: no-repeat;
+        transform: scale(1.2);
+    }
+
+    100% {
+        background: transparent;
+    }
+
+}
